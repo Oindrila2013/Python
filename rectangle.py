@@ -1,0 +1,13 @@
+class Rectangle():
+
+    def __init__(self, l, w):
+        self.length = l
+        self.width = w
+
+    def areaRectangle(self):
+        return self.length * self.width
+    
+newRectangle = Rectangle(20,30)
+
+print("Dimension of rectangle, width = %d , length = %d " %(newRectangle.width, newRectangle.length))
+print("Area of rectangle is", newRectangle.areaRectangle())
