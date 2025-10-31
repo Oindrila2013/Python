@@ -1,12 +1,8 @@
-class Circle():
-    
-    def __init__(self, ):
-        self.length = l
+import math
 
-    def areaCircle(self):
-        return self.length * self.width
-    
-newCircle = Circle(20)
 
-print("Dimension of Circle, length = %d " %(newCircle.length))
-print("Area of Circle is", newCircle.areaCircle())
+radius = float(input("Please enter the radius of the circle: "))
+
+area = math.pi * radius**2
+
+print(f"The area of a circle with radius {radius} is: {area}")
