@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS Salesman(
   name TEXT,
   city TEXT,
 );
-INSERT INTO Salesman(Salesman_id,name,city,Comission)
+INSERT INTO Salesman(Salesman_id,name,city)
 VALUES
   ("5001","James Hoog","New York","0.15"),
   ("5002","Nail Knite","Paris","0.13"),
